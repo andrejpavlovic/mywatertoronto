@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+$cli = new \MassEdge\MyWaterToronto\Cli();
+$cli->run();
